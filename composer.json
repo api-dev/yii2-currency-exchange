@@ -1,0 +1,24 @@
+{
+	"name": "glebstar/yii2-currency-exchange",
+	"description": "Yii2 module for currency exchange",
+	"keywords": ["yii2", "currency", "exchange", "module"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"support": {
+            "source": "https://github.com/glebstar/yii2-currency-exchange"
+	},
+	"authors": [
+        {
+            "name": "Gleb Starkov",
+            "email" : "glebstarkov@gmail.com"
+        }
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+            "psr-4": {
+                "glebstar\\exchange\\": ""
+            }
+	}
+}
