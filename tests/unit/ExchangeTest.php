@@ -15,5 +15,4 @@ class ExchangeTest extends \PHPUnit_Framework_TestCase
     {
         $exchange = Yii::$app->getModule('exchange');
     }
-
 }

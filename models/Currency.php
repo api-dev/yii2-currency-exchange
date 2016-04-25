@@ -2,9 +2,9 @@
 
 namespace glebstar\exchange\models;
 
-use yii\base\Model;
+use yii\db\ActiveRecord;
 
-class Currency extends Model {
+class Currency extends ActiveRecord {
     
 }
 
