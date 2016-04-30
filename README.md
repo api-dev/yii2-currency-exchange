@@ -14,3 +14,7 @@ or add
 ```
 
 to the require section of your application's `composer.json` file.
+
+```
+$ php yii migrate/up --migrationPath=@vendor/glebstar/yii2-curency-exchange/migrations
+```
